@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:id="@+id/photo_detail"
+            android:layout_width="180dp"
+            android:layout_height="350dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:src="@drawable/london"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/name_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/photo_detail"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/gotham_bold"
+            android:text="@string/city"/>
+
+        <TextView
+            android:id="@+id/detail_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/photo_detail"
+            android:layout_below="@+id/name_detail"
+            android:layout_alignEnd="@+id/name_detail"
+            android:fontFamily="@font/gotham_medium"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:id="@+id/hr_title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photo_detail"
+            android:text="@string/highlighted_rankings"
+            android:fontFamily="@font/gotham_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/hr_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hr_title_detail"
+            android:text="@string/city_hr"
+            android:fontFamily="@font/gotham_medium"
+            android:layout_marginStart="20dp"/>
+    </RelativeLayout>
+</ScrollView>

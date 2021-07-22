@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Top Cities</string>
+    <string name="main_page">Main Page</string>
+    <string name="detail_page">Detail Page</string>
+    <string name="about">About</string>
+    <string name="about_me">About me</string>
+    <string name="city">city</string>
+    <string name="detail">detail</string>
+    <string name="details">Details</string>
+    <string name="highlighted_rankings">HIGHLIGHTED RANKINGS</string>
+    <string name="city_hr">city_hr</string>
+    <string name="nathanael_roviery">Nathanael Roviery</string>
+    <string name="roviery_gmail_com">roviery@gmail.com</string>
+</resources>
